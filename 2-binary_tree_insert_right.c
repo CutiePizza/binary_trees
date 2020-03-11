@@ -9,27 +9,26 @@
 
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
-	binary_tree_t *tmp;
+	binary_tree_t *tree, *tmp;
 
 	if (parent == NULL)
 		return (NULL);
-
+	tree = malloc(sizeof(binary_tree_t));
+	if (tree == NULL)
+		return (NULL);
+	tree->n = value;
+	tree->left = NULL;
+	tree->right = NULL;
 	if (parent->right == NULL)
 	{
-		parent->right = binary_tree_node(parent->right, value);
-		if (parent->right == NULL)
-			return (NULL);
+		parent->right = tree;
 	}
 	else
 	{
 		tmp = parent->right;
-		parent->right = binary_tree_node(parent, value);
-		if (parent->right == NULL)
-			return (NULL);
-		parent->right->right = binary_tree_node(parent->right, tmp->n);
-		if (parent->right->right == NULL)
-			return (NULL);
+		parent->right->parent = tree;
+		parent->right = tree;
+		parent->right->right = tmp;
 	}
 	return (parent->right);
-
 }
