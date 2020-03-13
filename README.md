@@ -28,3 +28,4 @@ A binary tree is a data structure which can be represented in the form of a hier
     Visiting refers to checking the value of a node when control is on the node.
 
 ###### Traversing:
+    Traversing means passing through nodes in a specific order.
