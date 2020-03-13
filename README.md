@@ -35,3 +35,5 @@ A binary tree is a data structure which can be represented in the form of a hier
 
 ###### keys:
     Key represents a value of a node based on which a search operation is to be carried out for a node.
+
+## Basic Binary Tree
