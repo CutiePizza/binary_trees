@@ -29,3 +29,5 @@ A binary tree is a data structure which can be represented in the form of a hier
 
 ###### Traversing:
     Traversing means passing through nodes in a specific order.
+
+###### Levels:
