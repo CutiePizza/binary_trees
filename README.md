@@ -13,3 +13,4 @@ A binary tree is a data structure which can be represented in the form of a hier
     The node at the top of the tree is called root. There is only one root per tree and one path from the root node to any node.
 
 ###### Parent:
+    Any node except the root node has one edge upward to a node called parent.
