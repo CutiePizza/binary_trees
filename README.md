@@ -79,3 +79,5 @@ typedef struct binary_tree_s heap_t;
 ## Print function
 
 [Used function for printing the binary tree;](https://github.com/holbertonschool/0x1C.c)
+
+## Extra ressources
