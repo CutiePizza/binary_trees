@@ -64,3 +64,5 @@ typedef struct binary_tree_s binary_tree_t;
 typedef struct binary_tree_s bst_t;
 ```
 
+## AVL Tree
+
