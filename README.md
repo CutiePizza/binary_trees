@@ -31,7 +31,8 @@ A binary tree is a data structure which can be represented in the form of a hier
     Traversing means passing through nodes in a specific order.
 
 ###### Levels:
-    Level of a node represents the generation of a node. If the root node is at level 0, then its next child node is at level 1, its grandchild is at level 2, and so on.
+    Level of a node represents the generation of a node. If the root node is at level 0, then its next child node is at level 1,
+    its grandchild is at level 2, and so on.
 
 ###### keys:
     Key represents a value of a node based on which a search operation is to be carried out for a node.
@@ -81,3 +82,4 @@ typedef struct binary_tree_s heap_t;
 [Used function for printing the binary tree;](https://github.com/holbertonschool/0x1C.c)
 
 ## Extra ressources
+    [Binary tree](https://en.wikipedia.org/wiki/Binary_tree)
