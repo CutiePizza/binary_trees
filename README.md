@@ -22,3 +22,4 @@ A binary tree is a data structure which can be represented in the form of a hier
     The node which does not have any child node is called the leaf node.
 
 ###### Subtree:
+    Subtree represents the descendants of a node.
