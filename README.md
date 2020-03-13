@@ -25,3 +25,4 @@ A binary tree is a data structure which can be represented in the form of a hier
     Subtree represents the descendants of a node.
 
 ###### Visiting:
+    Visiting refers to checking the value of a node when control is on the node.
