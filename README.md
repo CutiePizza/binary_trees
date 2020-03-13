@@ -83,3 +83,4 @@ typedef struct binary_tree_s heap_t;
 
 ## Extra ressources
     [Binary tree](https://en.wikipedia.org/wiki/Binary_tree)
+    [Data Structure and Algorithms - Tree](https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm)
