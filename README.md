@@ -6,3 +6,5 @@ A binary tree is a data structure which can be represented in the form of a hier
 
 ## Important Terms
 
+###### Path:
+
