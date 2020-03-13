@@ -1,53 +1,19 @@
 #include "binary_trees.h"
 
-#define MAX(a, b)  (a < b ? b : a)
-
 /**
- * depth - measures the height of a binary tree
- * @tree: root node
- * Return: size of binary tree
- */
-
-size_t depth(const binary_tree_t *tree)
-{
-	if (tree == NULL)
-		return (0);
-	if (tree->parent == NULL)
-		return (0);
-	return (1 + depth(tree->parent));
-
-}
-
-/**
- * binary_tree_depth - measures the height of a binary tree
- * @tree: root node
- * Return: size of binary tree
- */
-
-size_t binary_tree_depth(const binary_tree_t *tree)
-{
-	size_t n;
-
-	if (tree == NULL)
-		return (0);
-	n = depth(tree);
-	return (n);
-}
-
-/**
- * is_perfect - check if tree is complete
+ * is_complete - check if tree is complete
  * @tree: starting node
  * Return: 0 or 1
  */
 
-int is_perfect(const binary_tree_t *tree)
+int is_complete(const binary_tree_t *tree)
 {
 	if (tree == NULL)
 		return (0);
 	if (tree->left == NULL && tree->right == NULL)
 		return (1);
 	if (tree->right != NULL && tree->left != NULL)
-		return (is_perfect(tree->left) && is_perfect(tree->right));
+		return (is_complete(tree->left) && is_complete(tree->right));
 	return (0);
 }
 /**
@@ -87,7 +53,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 	if (tree == NULL)
 		return (0);
-	return (is_perfect(tree) && is_same_level(tree, 0, &perfect));
+	return (is_complete(tree) && is_same_level(tree, 0, &perfect));
 }
 
 
