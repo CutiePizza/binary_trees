@@ -17,3 +17,5 @@ A binary tree is a data structure which can be represented in the form of a hier
 
 ###### Child:
     The node below a given node connected by its edge downward is called its child node.
+
+###### Leaf:
