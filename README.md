@@ -82,8 +82,8 @@ typedef struct binary_tree_s heap_t;
 [Used function for printing the binary tree;](https://github.com/holbertonschool/0x1C.c)
 
 ## Extra ressources
-    [Binary tree](https://en.wikipedia.org/wiki/Binary_tree)
-    [Data Structure and Algorithms - Tree](https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm)
-    [Tree Traversal](https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm)
-    [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
-    [![Data structures: Binary Tree](http://img.youtube.com/vi/H5JubkIy_p8/0.jpg)](https://www.youtube.com/watch?v=H5JubkIy_p8)
+[Binary tree](https://en.wikipedia.org/wiki/Binary_tree)
+[Data Structure and Algorithms - Tree](https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm)
+[Tree Traversal](https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm)
+[Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
+[![Data structures: Binary Tree](http://img.youtube.com/vi/H5JubkIy_p8/0.jpg)](https://www.youtube.com/watch?v=H5JubkIy_p8)
