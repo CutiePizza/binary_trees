@@ -1,10 +1,13 @@
-# C - Binary trees
+# [![](holberton-logo.png) Holberton School C - Binary trees Project](https://www.holbertonschool.com/tn/en/pathways)
+
+<img src="https://www.tutorialspoint.com/data_structures_algorithms/images/binary_tree.jpg" align="center" width="100%" height="100%">
+
+# 🧑🏻‍💻 Intro
 
 A binary tree is a data structure which can be represented in the form of a hierarchy of which each element is called node, the initial node being called root.
 
-![Image description](https://www.tutorialspoint.com/data_structures_algorithms/images/binary_tree.jpg)
 
-## Important Terms
+## 🕵️ Important Terms
 
 ###### Path:
     Path refers to the sequence of nodes along the edges of a tree.
@@ -37,7 +40,7 @@ A binary tree is a data structure which can be represented in the form of a hier
 ###### keys:
     Key represents a value of a node based on which a search operation is to be carried out for a node.
 
-## Basic Binary Tree
+## 👉 Basic Binary Tree
 
 ```c
 /**
@@ -59,31 +62,36 @@ struct binary_tree_s
 typedef struct binary_tree_s binary_tree_t;
 ```
 
-## Binary Search Tree
+## 👉 Binary Search Tree
 
 ```c
 typedef struct binary_tree_s bst_t;
 ```
 
-## AVL Tree
+## 👉 AVL Tree
 
 ```c
 typedef struct binary_tree_s avl_t;
 ```
 
-## Max Binary Heap
+## 👉 Max Binary Heap
 
 ```c
 typedef struct binary_tree_s heap_t;
 ```
 
-## Print function
+## 👉 Print function
 
 [Used function for printing the binary tree;](https://github.com/holbertonschool/0x1C.c)
 
 ## Extra ressources
-[Binary tree](https://en.wikipedia.org/wiki/Binary_tree)
-[Data Structure and Algorithms - Tree](https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm)
-[Tree Traversal](https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm)
-[Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
-[![Data structures: Binary Tree](http://img.youtube.com/vi/H5JubkIy_p8/0.jpg)](https://www.youtube.com/watch?v=H5JubkIy_p8)
+
+- [Binary tree](https://en.wikipedia.org/wiki/Binary_tree)
+- [Data Structure and Algorithms - Tree](https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm)
+- [Tree Traversal](https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm)
+- [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
+- [Data structures: Binary Tree](https://www.youtube.com/watch?v=H5JubkIy_p8)
+
+<hr>
+
+By [Inès](https://www.linkedin.com/in/ines-chokri) & [Khouloud](https://www.linkedin.com/in/khouloud-alkhammassi-3a9078129) Software engineers at [HolbertonSchool®️](https://www.holbertonschool.com)
